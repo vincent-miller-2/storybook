@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "start": "start-storybook",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "chromatic": "npx chromatic --project-token=1ac017528a0e"
   },
   "dependencies": {
     "@storybook/react": "^6.3.5",
