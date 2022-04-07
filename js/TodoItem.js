@@ -65,7 +65,7 @@ export default function TodoItem({
           checked={completed}
           onChange={onToggle}
         />
-        <label onDoubleClick={handleEdit}>
+        <label onDoubleClick={handleEdit} style={{fontSize: "25px"}}>
           {title}
         </label>
         <button className="destroy" onClick={onDestroy}  style={{color: "blue"}} />
