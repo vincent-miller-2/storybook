@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoItem from './TodoItem';
+import TodoItem from '../js/TodoItem';
 
 export default {
   title: 'TodoItem',

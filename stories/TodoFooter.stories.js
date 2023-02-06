@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import TodoFooter from './TodoFooter';
+import TodoFooter from '../js/TodoFooter';
 
 export default {
   title: 'TodoFooter',

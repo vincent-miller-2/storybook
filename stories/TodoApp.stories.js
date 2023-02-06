@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import TodoApp from './TodoApp';
+import TodoApp from '../js/TodoApp';
 
 export default {
   title: 'TodoApp',

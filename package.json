@@ -6,16 +6,29 @@
   "scripts": {
     "start": "start-storybook",
     "build": "build-storybook",
-    "chromatic": "npx chromatic --project-token=1ac017528a0e"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=e214b2f8b99d"
   },
   "dependencies": {
-    "@storybook/react": "^6.3.5",
     "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "todomvc-app-css": "^2.0.0"
   },
   "devDependencies": {
-    "chromatic": "^6.5.3"
-  }
+    "@babel/core": "^7.20.12",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack4": "^6.5.16",
+    "@storybook/manager-webpack4": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "0.0.13",
+    "babel-loader": "^8.3.0",
+    "chromatic": "^6.15.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "example-percy-storybook@1.0.0"
 }
