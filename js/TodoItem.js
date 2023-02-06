@@ -65,10 +65,10 @@ export default function TodoItem({
           checked={completed}
           onChange={onToggle}
         />
-        <label onDoubleClick={handleEdit} style={{fontSize: "25px"}}>
+        <label onDoubleClick={handleEdit} style={{fontSize: "16px"}}>
           {title}
         </label>
-        <button className="destroy" onClick={onDestroy}  style={{color: "red"}} />
+        <button className="destroy" onClick={onDestroy}  style={{color: "orange"}} />
       </div>
       <input
         ref={editField}
